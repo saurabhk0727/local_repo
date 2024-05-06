@@ -14,7 +14,7 @@ public class Armstrong_number {
 		}
 
 		if(a==res){
-			System.out.println(res + " is Armstrong No");
+			System.out.println(res + " is Armstrong NoSS");
 
 		}
 		else
