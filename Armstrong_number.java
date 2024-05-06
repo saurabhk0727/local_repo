@@ -1,4 +1,4 @@
-package Java_Imp_Programs;
+package Java_Project;
 public class Armstrong_number {
 
 	public static void main(String[] args) {
@@ -12,7 +12,14 @@ public class Armstrong_number {
 			res=res+(rem*rem*rem);
 			temp=temp/10;
 		}
-		System.out.println(res + " is Armstrong No");
+
+		if(a==res){
+			System.out.println(res + " is Armstrong No");
+
+		}
+		else
+		System.out.println(a + " is Not Armstrong No");
+		
 	}
 	
 		
